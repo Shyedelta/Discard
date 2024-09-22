@@ -65,6 +65,7 @@ const Discard = () => {
             inputRef.current.focus();
         }
     }, [guess, history, result]);
+    
     return (
         <div className="flex justify-center items-center min-h-screen  text-center">
             <div className="flex justify-center items-center flex-wrap p-5 w-full gap-10">
